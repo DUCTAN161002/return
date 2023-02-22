@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS28145_NGUYENDUCTAN</title>
+    <link rel="stylesheet" href="Dangki.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label class="chu" for="">Họ và tên</label><br>
+            <input type="text" class="control" tabindex="1">
+        </div>
+        <div class="form"><fieldset>
+            <legend>Giới tính</legend><br>
+            <input type="radio"><span class="chu">Nam</span>
+            <input type="radio"><span class="chu">Nữ</span>
+        </fieldset></div>
+        <div class="form">
+            <label class="chu" for="">Ngày sinh</label><br>
+            <input type="date">
+        </div>
+        <div class="form">
+            <label class="chu" for="">Số điện thoại :</label><br>
+            <input class="control" type="number" min="0" max="10" step="0.25">
+        </div>
+        <div class="form">
+            <label class="chu" for="">Nghề nghiệp</label><br>
+            <input class="control" type="list" list="die">
+            <datalist>
+                <option value="Fuho"></option>
+                <option value="IT"></option>
+                <option value="Marketing"></option>
+            </datalist>
+        </div>
+        <div class="form"><fieldset>
+          <legend>Sở thích</legend><br>
+            <input type="checkbox"><span class="chu">Thể thao</span>
+            <input type="checkbox"><span class="chu">Du lịch</span>
+            <input type="checkbox"><span class="chu">Âm nhạc</span>
+            <input type="checkbox"><span class="chu">Ẩm thực</span>
+        </fieldset></div>
+        <div class="form">
+            <label class="chu" for="">Ghi chú</label><br>
+            <textarea name="" id="" cols="30" rows="5" tabindex="2"></textarea>
+        </div>
+        <div class="form">
+            <button class="button" tabindex="3">Đăng kí</button>
+            <button class="button" tabindex="4">Nhập lại</button>
+        </div>
+    </form>
+</body>
+</html>
